@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Hub from "../hero/hub.png";
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
         </h1>
       </section>
       <section className="pr-5">
-        <img
+        <Image
           src={Hub.src}
           alt="logo"
           width={50}

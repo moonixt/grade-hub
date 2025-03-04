@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Uni from "../hero/jupiter.jpg";
 import Old from "../hero/night.jpg";
 
@@ -6,7 +7,7 @@ const Cards = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 p-4 ">
       <div className="relative shadow-md overflow-hidden  ">
         <section className="bg-gray-900">
-          <img
+          <Image
             src={Uni.src}
             alt="University"
             className="w-full h-full object-cover opacity-70 "
