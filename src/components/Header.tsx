@@ -16,7 +16,7 @@ const Header = () => {
           alt="logo"
           width={50}
           height={50}
-          className="rounded-full object-cover"
+          className="rounded-md object-cover"
         />
       </section>
     </div>
