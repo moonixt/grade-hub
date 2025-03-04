@@ -9,6 +9,8 @@ const Cards = () => {
         <section className="bg-gray-900">
           <Image
             src={Uni.src}
+            width={1000}
+            height={1000}
             alt="University"
             className="w-full h-full object-cover opacity-70 "
           />
@@ -23,9 +25,11 @@ const Cards = () => {
       </div>
       <div className="relative shadow-md  overflow-hidden ">
         <section className="bg-gray-900">
-          <img
+          <Image
             src={Old.src}
             alt="University"
+            width={1000}
+            height={1000}
             className="w-full h-full object-cover opacity-60 "
           />
         </section>

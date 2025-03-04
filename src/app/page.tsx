@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Container from "@/components/Container";
 
-export default function Home({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
     <div className="">
       <Header />
