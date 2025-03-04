@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../styles/globals.css"; 
+import "../styles/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GradeHub",
   description: "A melhor plataforma de estudantes e professores. ",
-  openGraph: { images: [{ url: "../hero/hero.jpg" }] }
+  openGraph: { images: [{ url: "../hero/hero.jpg" }] },
 };
 
 export default function RootLayout({

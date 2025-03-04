@@ -1,19 +1,25 @@
-import { IoTriangleSharp } from "react-icons/io5";
-import "../styles/globals.css";
-
+import Hub from "../hero/hub.png";
 
 const Header = () => {
   return (
-    <div className=' headermaincolor shadow-sm dark:border-b dark:border-gray-800 h-22 w-full flex items-center pt-2 pl-2 '>
-      <section className="pb-1 ">
-      <IoTriangleSharp 
-      size={60}/>
-      </section>
+    <div className="bg-black shadow sticky top-0 z-50 border-b border-black shadow-sm h-20 w-full flex items-center justify-between  pt-2 pl-2 ">
       <section>
-      <h1 className='text-white text-4xl'> GradeHub</h1>
+        <h1 className="text-red-600 text-white sm:text-3xl text-1xl ">
+          {" "}
+          GradeHub
+        </h1>
+      </section>
+      <section className="pr-5">
+        <img
+          src={Hub.src}
+          alt="logo"
+          width={50}
+          height={50}
+          className="rounded-full object-cover"
+        />
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

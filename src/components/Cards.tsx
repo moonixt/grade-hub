@@ -1,43 +1,40 @@
-import Uni from "../hero/uni.jpg";
-import Old from "../hero/old.jpg";
+import Uni from "../hero/jupiter.jpg";
+import Old from "../hero/night.jpg";
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 p-4" >
-      <div className="bg-white shadow-md rounded-lg overflow-hidden">
-        <img
-          src={Uni.src}
-          alt="University"
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-4">
-          <h2 className="text-xl font-bold text-black mb-2">Atividades</h2>
-          <p className="text-black mb-4">
-            Acesse o conteúdo e materiais didaticos disponibilizado pela instituição.
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 p-4 ">
+      <div className="relative shadow-md overflow-hidden  ">
+        <section className="bg-gray-900">
+          <img
+            src={Uni.src}
+            alt="University"
+            className="w-full h-full object-cover opacity-70 "
+          />
+        </section>
+        <div className="absolute inset-5 flex flex-col justify-center items-center ">
+          <h2 className="text-3xl font-bold text-white mb-2">Atividades</h2>
+          <p className="text-white ">
+            Acesse o conteúdo e materiais didaticos disponibilizado pela
+            instituição.
           </p>
-          <button className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-            Acessar
-          </button>
         </div>
       </div>
-      <div className="bg-white shadow-md rounded-lg overflow-hidden">
-        <img
-          src={Old.src}
-          alt="University"
-          className="w-full h-48 object-cover"
-        />
-        <div className="p-4">
-          <h2 className="text-xl font-bold text-black mb-2">Dashboard</h2>
-          <p className="text-black mb-4">
-            Acesse a dashboard, sendo você aluno ou professor.
+      <div className="relative shadow-md  overflow-hidden ">
+        <section className="bg-gray-900">
+          <img
+            src={Old.src}
+            alt="University"
+            className="w-full h-full object-cover opacity-60 "
+          />
+        </section>
+        <div className="absolute inset-5 flex flex-col justify-center items-center ">
+          <h2 className="text-3xl font-bold text-white mb-2">Dashboard</h2>
+          <p className="text-white ">
+            Acesse a dashboard, sendo você Aluno ou professor.
           </p>
-          <button className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-            Acessar
-          </button>
         </div>
       </div>
-      
-    
     </div>
   );
 };
