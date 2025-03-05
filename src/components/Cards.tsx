@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import Uni from "../hero/jupiter.jpg";
 import Old from "../hero/night.jpg";
 
@@ -17,9 +17,10 @@ const Cards = () => {
         </section>
         <div className="absolute inset-5 flex flex-col justify-center items-center ">
           <h2 className="text-3xl font-bold text-white mb-2">Activities</h2>
-            <p className="text-white ">
-            Access the content and educational materials provided by the institution.
-            </p>
+          <p className="text-white ">
+            Access the content and educational materials provided by the
+            institution.
+          </p>
         </div>
       </div>
       {/* <div className='text-black '> Content</div> */}
@@ -35,9 +36,9 @@ const Cards = () => {
         </section>
         <div className="absolute inset-5 flex flex-col justify-center items-center ">
           <h2 className="text-3xl font-bold text-white mb-2">Dashboard</h2>
-            <p className="text-white ">
+          <p className="text-white ">
             Access the dashboard, whether you are a student or a teacher.
-            </p>
+          </p>
         </div>
       </div>
     </div>

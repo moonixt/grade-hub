@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import Hub from "../hero/hub.png";
 
 const Header = () => {
@@ -10,6 +10,7 @@ const Header = () => {
           GradeHub
         </h1>
       </section>
+
       <section className="pr-5">
         <Image
           src={Hub.src}

@@ -20,8 +20,6 @@ export default function Home() {
         </main>
       </Container>
       <Footer></Footer>
-
-      
     </div>
   );
 }

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GradeHub",
   description: "A melhor plataforma de estudantes e professores. ",
-  openGraph: { images: [{ url: "../hero/hero.jpg" }] },
+  openGraph: { images: [{ url: "../hero/hub.png" }] },
 };
 
 export default function RootLayout({
@@ -25,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link
+        rel="icon"
+        href="../static/icon.png"
+        type="image/png"
+        sizes="32x32"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

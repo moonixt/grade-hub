@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import Hero2 from "../hero/hero2.jpg";
 
 const Hero = () => {
