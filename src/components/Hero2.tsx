@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Herodino from "../hero/herodino.jpg";
+import Books from "../hero/books.jpg";
 
 const Hero2 = () => {
   return (
     <div className="relative">
       <section className="bg-gray-900">
         <Image
-          src={Herodino.src}
+          src={Books.src}
           alt="Hero"
           width={1500}
           height={1500}
@@ -14,7 +14,7 @@ const Hero2 = () => {
         ></Image>
       </section>
       <h1 className="absolute inset-0 flex  items-center justify-center text-white text-1xl sm:text-4xl md:text-6xl  ">
-        Activities, grades, all in one place.
+        Join us now.
       </h1>
     </div>
   );
