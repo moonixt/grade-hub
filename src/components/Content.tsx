@@ -11,7 +11,7 @@ const Content = () => {
       </p>
       <p>
         With cutting-edge technology and AI-driven personalization, our system
-        adapts to each student's learning style, ensuring more effective
+        adapts to each students learning style, ensuring more effective
         knowledge retention and engagement. Unlike conventional platforms, we
         integrate interactive assessments, real-time feedback, and seamless
         communication tools that empower both educators and students.
