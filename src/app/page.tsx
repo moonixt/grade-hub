@@ -4,6 +4,10 @@ import Hero from "@/components/Hero";
 import Hero2 from "@/components/Hero2";
 import Container from "@/components/Container";
 import Content from "@/components/Content";
+import GalleryCover from "@/components/GalleryCover";
+import GalleryNone from "@/components/GalleryNone";
+import ContainerGallery from "@/components/ContainerGallery";
+import ContentFeatures from "@/components/ContentFeatures";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -21,6 +25,17 @@ export default function Home() {
         </main>
       </Container>
       <Hero2 />
+      <ContainerGallery>
+        <GalleryCover></GalleryCover>
+
+        {/* <GalleryNone></GalleryNone>
+      <GalleryNone></GalleryNone>
+      <GalleryNone></GalleryNone>
+      <GalleryNone></GalleryNone> */}
+      </ContainerGallery>
+      <Container>
+        <ContentFeatures></ContentFeatures>
+      </Container>
       <Footer></Footer>
     </div>
   );

@@ -7,7 +7,7 @@ const Hero2 = () => {
       <section className="bg-gray-900">
         <Image
           src={Herodino.src}
-          alt="Hero"
+          alt="Dino"
           width={1500}
           height={1500}
           className="w-700 h-100 sm:h-200 object-cover opacity-50 "

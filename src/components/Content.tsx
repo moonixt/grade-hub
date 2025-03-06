@@ -3,32 +3,31 @@ const Content = () => {
     <div className="pb-10 text-2xl text-black pt-10 space-y-5">
       <h1 className="font-bold">How Our School Works</h1>
       <p>
-        At our school, we believe in providing a holistic education that
-        nurtures the intellectual, emotional, and social development of each
-        student. Our curriculum is designed to challenge and inspire students,
-        encouraging them to think critically and creatively. We offer a wide
-        range of subjects and extracurricular activities to cater to the diverse
-        interests and talents of our students.
+        Our platform redefines digital education, offering a more dynamic and
+        interactive learning experience than traditional tools like Google
+        Classroom. We go beyond simple content delivery, creating an immersive
+        environment that fosters deep understanding, collaboration, and
+        innovation.
       </p>
       <p>
-        Our dedicated teachers are committed to creating a supportive and
-        inclusive learning environment where every student feels valued and
-        respected. We use innovative teaching methods and the latest technology
-        to enhance the learning experience and ensure that our students are
-        well-prepared for the future.
+        With cutting-edge technology and AI-driven personalization, our system
+        adapts to each student's learning style, ensuring more effective
+        knowledge retention and engagement. Unlike conventional platforms, we
+        integrate interactive assessments, real-time feedback, and seamless
+        communication tools that empower both educators and students.
       </p>
       <p>
-        In addition to academic excellence, we place a strong emphasis on
-        character development and community involvement. Our students are
-        encouraged to participate in community service projects and develop a
-        sense of social responsibility. We believe that education is not just
-        about acquiring knowledge, but also about becoming a compassionate and
-        responsible global citizen.
+        Our educators have access to powerful analytics and adaptive teaching
+        resources, allowing them to tailor lessons to individual needs
+        effortlessly. Additionally, we emphasize not only academic excellence
+        but also character development, creativity, and real-world
+        problem-solving skills—preparing students for the challenges of
+        tomorrow.
       </p>
       <p>
-        We invite you to join our school community and discover the many
-        opportunities we offer for personal and academic growth. Together, we
-        can help your child reach their full potential and achieve their dreams.
+        Join us in transforming education. Experience a platform designed to
+        inspire, empower, and elevate learning beyond the limitations of
+        traditional classroom management tools.
       </p>{" "}
     </div>
   );
