@@ -28,7 +28,7 @@ const Content = () => {
         Join us in transforming education. Experience a platform designed to
         inspire, empower, and elevate learning beyond the limitations of
         traditional classroom management tools.
-      </p>{" "}
+      </p>
     </div>
   );
 };
