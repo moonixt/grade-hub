@@ -7,7 +7,7 @@ import GalleryCover from "@/components/GalleryCover";
 // import GalleryNone from "@/components/GalleryNone";
 import ContainerGallery from "@/components/ContainerGallery";
 import ContentFeatures from "@/components/ContentFeatures";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
