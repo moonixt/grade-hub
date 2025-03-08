@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,12 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "GradeHub",
-  description: "A melhor plataforma de estudantes e professores. ",
-  openGraph: { images: [{ url: "../hero/hub.png" }] },
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,16 +20,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link
-        rel="icon"
-        href="../static/icon.png"
-        type="image/png"
-        sizes="32x32"
-      />
+      <head>
+        <link
+          rel="icon"
+          href="../static/icon.png"
+          type="image/png"
+          sizes="32x32"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

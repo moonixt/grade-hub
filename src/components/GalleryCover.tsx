@@ -3,6 +3,7 @@ import Alan from "../gallery/alan.jpeg";
 import Einstein from "../gallery/einstein.jpeg";
 import Open from "../gallery/open.jpeg";
 import Margaret from "../gallery/margaret.jpeg";
+import Link from "next/link";
 
 const GalleryCover = () => {
   return (
@@ -54,7 +55,7 @@ const GalleryCover = () => {
           />
         </section>
         <div className="absolute inset-5 flex flex-col justify-center items-center ">
-          <h2 className="text-3xl  text-white mb-2">Our work</h2>
+          <Link href="/our-work"><h2 className="text-3xl  text-white mb-2">Our work</h2></Link>
           {/* <p className="text-white ">
           Access the dashboard, whether you are a student or a teacher.
         </p> */}

@@ -1,5 +1,4 @@
 import Cards from "@/components/Cards";
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Hero2 from "@/components/Hero2";
 import Container from "@/components/Container";
@@ -13,7 +12,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="">
-      <Header />
       <Hero />
       <Container>
         <main>
@@ -36,7 +34,6 @@ export default function Home() {
       <Container>
         <ContentFeatures></ContentFeatures>
       </Container>
-      <Footer></Footer>
     </div>
   );
 }
